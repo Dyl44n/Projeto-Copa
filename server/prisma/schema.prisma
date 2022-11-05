@@ -45,7 +45,7 @@ model User {
   createdAt DateTime @default(now())
 
   participatingAt Participant[]
-  ownsPools       Pool[]
+  ownPools        Pool[]
 }
 
 model Game {
